@@ -1,0 +1,96 @@
+1.	Develop a web page that allows the user to enter details of the passenger (name, age, email, gender).Write a client side scripting code to validate the email, age and gender, where email should consists of the special symbol @and period (.), where age between 1 to 100 and gender is male or female.
+
+2.	Design a Passenger Registration form with First Name, Last name, Address, City, State, Country, Pincode, Username and Password fields for a General login webpage and satisfy the following criteria: 
+(a) Check that the First Name, Last Name, City, Country, Username, and Password fields are filled out. 
+(b) Check that the Pincode is exactly 6 numerics. 
+(c) Check that the state is exactly three characters.
+(d) Check that the email is a valid email address.
+
+3.	Create an online-examination web portal. Prepare the questions of your choice. The students should enter their name and register number before answering the questions. The online exam should contain at least five questions of type multiple choice. The choice of selection should use radio buttons and for each correct answer one mark should be awarded. After attempting all questions, proceed with submit button. After clicking the submit button, display the result with register number, name of the student and marks. Design a web portal using JavaScript and HTML forms. 
+
+4.	Design a web page with the text box where the user can enter a four digit number with a validation button. The digits entered here must be in ascending order for the input (eg. 1234, 5678). Validate the field using JavaScript.
+
+5.	Design a JavaScript program to display a message “Hi good morning to you” when a page is loaded and displays a message “Thanks for visiting our web page” when a page is unloaded.
+
+6.	Write JavaScript for the following. Provide a text box for the user to enter user name. Validate the user name must contain eight characters. Provide submit button for the validation to happen. On successful validation display a new page with an image and two textboxes for entering width and height of the image respectively with a resize button at the bottom of the image. On clicking the resize button validate the width and height on successful validation display the image.
+
+7.	Design a JavaScript program to display a message “Hi good morning to you” when a page is loaded and displays a message “Thanks for visiting our web page” when a page is unloaded and capture script error using event handler.
+
+8.	Design a simple ‘Hello World!’ message to deploy in React application.
+
+9.	Design a myNotes logging application and implement the following concepts Using Morgan Middleware:
+•	handle POST submissions
+•	display customized error messages 
+•	perform logging
+
+10.	Design a myNotes logging application, include these below APIs based on the requirements provided.
+•	API should fetch the details of the notes based on a notesID which is provided in the URL.
+Test URL - http://localhost:3000/notes/7555.
+
+11.	Design a myNotes logging application, include these below APIs based on the requirements provided.
+•	API should update the details based on the name which is provided in the URL and the data in the request body.
+Test URL - http://localhost:3000/notes/Mathan 
+Note: Only one document in the collection needs to be updated.
+
+12.	Design a myNotes logging application, include these below APIs based on the requirements provided. 
+•	API should delete the details based on the name which is provided in the URL.
+Test URL - http://localhost:3000/notes/Mathan 
+Note: Only one document in the collection needs to be deleted
+Note: Incorporate required security measures to implementation a secure application.
+
+13.	Implement routing for the Adventure Trails application as per the below requirement. Write the necessary code in the routes/route.js file.
+Sl. No.	Route path	Success response	Error response
+1	/packages	Status code: 200
+
+A JSON object with property:
+•	message: "You can now get the requested packages for your request".	Status code: 404
+
+A JSON object with property:
+•	status: "fail"
+
+•	message: the error message
+2	/bookpackage	Status code: 201
+
+A JSON object with property:
+•	message: "New booking added for the POST request"	Status code: 404
+
+A JSON object with property:
+•	status: "fail"
+
+•	message: the error message
+3	/all	-	Status code: 404
+
+A JSON object with property:
+•	status: "fail"
+
+•	message: "invalid path"
+
+14.	Create a file fileSystem.js and highlight the following procedures:
+•	Usage of fs.writeFile() method
+•	write' data to a file
+
+15.	The static file middleware does not specially treat hello.html as it did index.html, so you will have to access the application with the name of the file like this:
+http://localhost:3000/hello.html.
+
+16.	Raj needs an Expense tracker to keep track of his expenses. Build an Expense Tracker using React Hooks & Context API. The expense tracker allows Raj to add his expenses and to categorize them into Expenses on:
+•	Groceries
+•	Bill payments
+•	Education
+•	Entertainment
+
+17.	Kavin is a school kid who needs a calculator. Implement a calculator built in React.
+
+18.	Neha is a person who likes to communicate through emojis. Implement a React app for searching emojis based on typed text.
+
+19.	Naveen and Praveen want to spend their time by playing a two-player game. Build the Tic-Tac-Toe game in React to help them.
+20.	Mohan is a film-freak. Build a movie search engine web application using React.js, which displays the top 10 Trending movies and links the selected movie in YouTube and help Mohan.
+
+21.	SK Stores is a small Departmental Store near you. Build a small shopping cart web application using React, to serve the Store.
+
+22.	Build a React Hooks app for calculating BMI of Kumar, who is a fitness freak. Kumar is allowed to enter his height and weight.
+
+23.	Siva is a fresher buddy searching for a good job. Build a Resume Builder Web Application using React. Siva must be allowed to give the details. The resume must be built with appropriate phrases.
+
+24.	Build a simple to-do app using React, having the feature to strikethrough to-do items/tasks that are completed. It must be used by Keerthy, a budding business guy. Keerthy must be allowed to enter the tasks every morning and as soon as the task is completed, he should tap on the completed task.
+
+25.	Build a weather application that provides the weather details for a location specified by the farmers of a particular district in Tamilnadu
